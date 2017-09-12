@@ -30,7 +30,7 @@
     mysqli_select_db($conn, "currentgames");
 
     //Generate random number for room code
-    $roomcode = (rand(10000, 99999));
+    $roomcode = (rand(1, 10));
     echo "<br>Room Code is: ".$roomcode."<br>";
     $roomcode_string = "GAME_$roomcode"; //Format roomcode
 
