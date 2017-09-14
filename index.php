@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>We Love PHP!</title>
+  <title>Mafia Boss</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
