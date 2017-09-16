@@ -32,7 +32,7 @@
     //Generate random number for room code
     $roomcode = (rand(1, 10));
     echo "<br>Room Code is: ".$roomcode."<br>";
-    $roomcode_string = "GAME_$roomcode"; //Format roomcode
+    $roomcode_string = "game_$roomcode"; //Format roomcode
 
 
     //Check if room code already exists and if so, delete it.

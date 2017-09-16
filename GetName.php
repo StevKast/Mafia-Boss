@@ -7,22 +7,16 @@
 </head>
 <body>
 
-  <h1>
-    Welcome!
-  </h1>
+  <p>
+    Please enter you name.
+  </p>
 
   <div class="center">
-
-    <!-- Player Join Game -->
     <form class="" action="player.php" method="post">
       <input type="text" name="roomcode" value="">
       <input type="submit" name="join" value="Join Game">
     </form>
 
-    <!-- Host Create Game -->
-    <form class="" action="host.php" method="post">
-      <input type="submit" name="create" value="New Game">
-    </form>
   </div>
 
 </body>
